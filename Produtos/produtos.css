@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    color:brown;
+    color:#c78c19;
     text-decoration: underline;
 }
 
@@ -54,6 +54,21 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.produtos li:hover {
+    border-color: #c78c19;
+
+}
+
+.produtos li:active {
+    border-color: #088c19;
+
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+
+}
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
@@ -71,4 +86,15 @@ nav a:hover {
     margin: 10px;
 }
 
+footer {
+    text-align: center;
+    background-image: url(assets/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 15px 0 0;
+}
 
